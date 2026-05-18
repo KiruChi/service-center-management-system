@@ -76,7 +76,7 @@ Open the folder containing `CMakeLists.txt`.
 Add CMake option:
 
 ```text
-CMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
+-DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
 ```
 
 Replace the path with your own vcpkg location.
