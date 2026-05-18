@@ -65,11 +65,7 @@ vcpkg install mongo-cxx-driver:x64-windows
 
 ## 🔧 Build Instructions
 
-### 1. Clone repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/service-center-management-system.git
-```
+### 1. Download repository
 
 ### 2. Open project in Qt Creator
 
