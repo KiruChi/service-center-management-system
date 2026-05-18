@@ -125,11 +125,3 @@ db.Users.insertMany([
 ```
 
 ### 5. Build and Run
-
-Press:
-
-```text
-Build → Run
-```
-
-inside Qt Creator.
