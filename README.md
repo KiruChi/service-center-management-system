@@ -95,13 +95,34 @@ Database used by the application:
 ServiceCenter
 ```
 
-Collection:
+Collections:
 
 ```text
 Orders
+Users
 ```
+Insert test users into the Users collection Example Users:
+```bash
+use ServiceCenter
 
----
+db.Users.insertMany([
+  {
+    name: "admin",
+    password: "admin123",
+    role: "Administrator"
+  },
+  {
+    name: "reception",
+    password: "reception123",
+    role: "Receptionist"
+  },
+  {
+    name: "tech",
+    password: "tech123",
+    role: "Technician"
+  }
+])
+```
 
 ### 5. Build and Run
 
